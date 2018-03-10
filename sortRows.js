@@ -1,6 +1,5 @@
-function sortRows(n, int_type = false) {
+function sortRows(n, table, int_type = false) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-  table = document.getElementById('catalog-table');
   switching = true;
   dir = "asc"; 
   while(switching){
