@@ -1,5 +1,5 @@
 function sortRows(n, table, int_type = false) {
-  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  var rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
   switching = true;
   dir = "asc"; 
   while(switching){
